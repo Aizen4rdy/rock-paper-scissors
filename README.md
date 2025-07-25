@@ -31,27 +31,27 @@ This project includes:
 - 🔁 **Reset Score Button**
 
 ---
-
 ## 📂 Folder Structure
 
+```text
 rock-paper-scissors/
 ├── index.html
 ├── styles/
-│ └── style.css
+│   └── style.css
 ├── scripts/
-│ └── script.js
+│   └── script.js
 ├── images/
-│ ├── rock.png
-│ ├── paper.png
-│ ├── scissors.png
-│ └── screenshot.png
+│   ├── rock.png
+│   ├── paper.png
+│   ├── scissors.png
+│   └── screenshot.png
 └── sounds/
-├── click.mp3
-├── win.mp3
-├── lose.mp3
-├── tie.mp3
-└── reset.mp3
----
+    ├── click.mp3
+    ├── win.mp3
+    ├── lose.mp3
+    ├── tie.mp3
+    └── reset.mp3
+
 ## 🚀 How to Run
 
 1. **Clone the repository:**
