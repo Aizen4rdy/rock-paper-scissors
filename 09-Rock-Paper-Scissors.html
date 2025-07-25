@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Rock Paper Scissors Game</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+  <p class="title">ROCK PAPER SCISSORS</p>
+
+  <div class="buttons">
+    <button class="move-button" data-move="rock">
+      <img src="images/rock.png" class="move-icon">
+    </button>
+    <button class="move-button" data-move="paper">
+      <img src="images/paper.png" class="move-icon">
+    </button>
+    <button class="move-button" data-move="scissors">
+      <img src="images/scissors.png" class="move-icon">
+    </button>
+  </div>
+
+  <p class="js-result result"></p>
+  <p class="js-moves moves"></p>
+  <p class="js-score score"></p>
+
+  <button class="reset-button">Reset Score</button>
+
+  <script src="scripts/script.js"></script>
+</body>
+</html>
