@@ -1,24 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Rock Paper Scissors Game</title>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="styles/style.css"/>
 </head>
 <body>
   <p class="title">ROCK PAPER SCISSORS</p>
 
+  <div class="top-controls">
+    <div class="theme-toggle">
+      <label class="switch">
+        <input type="checkbox" id="theme-toggle" />
+        <span class="slider"></span>
+      </label>
+    </div>
+
+    <div class="round-selector">
+      <label for="rounds">Rounds:</label>
+      <select id="rounds">
+        <option value="3">Best of 3</option>
+        <option value="5">Best of 5</option>
+      </select>
+    </div>
+  </div>
+
   <div class="buttons">
     <button class="move-button" data-move="rock">
-      <img src="images/rock.png" class="move-icon">
+      <img src="images/rock.png" class="move-icon"/>
     </button>
     <button class="move-button" data-move="paper">
-      <img src="images/paper.png" class="move-icon">
+      <img src="images/paper.png" class="move-icon"/>
     </button>
     <button class="move-button" data-move="scissors">
-      <img src="images/scissors.png" class="move-icon">
+      <img src="images/scissors.png" class="move-icon"/>
     </button>
   </div>
 
